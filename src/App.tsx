@@ -410,7 +410,7 @@ function App() {
                   <div>
                     <div className="font-semibold">Phone</div>
                     <a href="tel:+919166538689" className="text-blue-200 hover:text-white transition-colors">
-                      (9136638689) AQUAPROOFING
+                      (9166538689) AQUAPROOFING
                     </a>
                     <div className="text-sm text-blue-200 mt-1">24/7 Emergency Service Available</div>
                   </div>
@@ -670,7 +670,7 @@ function App() {
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-3 flex-shrink-0" />
                   <a href="tel:+919166538689" className="hover:text-white transition-colors">
-                    (9136638689) AQUAPROOFING
+                    (9166538689) AQUAPROOFING
                   </a>
                 </div>
                 <div className="flex items-center">
