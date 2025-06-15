@@ -568,7 +568,7 @@ function App() {
                 </div>
 
                 {/* File Upload Section */}
-                <div>
+                {/* <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Attach Photos (Optional)
                   </label>
@@ -591,7 +591,7 @@ function App() {
                         Click to upload or drag and drop
                       </p>
                     </label>
-                  </div>
+                  </div>*/}
 
                   {/* Selected Files Display */}
                   {selectedFiles.length > 0 && (
