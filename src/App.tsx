@@ -119,7 +119,7 @@ function App() {
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "25+ Years Experience",
+      title: "12+ Years Experience",
       description: "Over two decades of experience in waterproofing solutions for residential and commercial properties."
     },
     {
@@ -136,25 +136,25 @@ function App() {
 
   const testimonials = [
     {
-      name: "Sarah Mitchell",
-      location: "Downtown Resident",
+      name: "Prad",
+      location: "Vidayaranpura, Bangalore",
       rating: 5,
-      text: "AquaProofing Co. saved our basement from chronic flooding. Their team was professional, efficient, and the work has held up perfectly for over 3 years now.",
-      service: "Basement Waterproofing"
+      text: "They have done the terrace waterproofing work and bathroom grouting work very good and neat. Now the leakage has stopped.good service. Reasonable price.Highly recommended.",
+      service: "Terrace Waterproofing"
     },
     {
-      name: "Mike Thompson",
-      location: "Commercial Property Owner",
+      name: "Surendra Mishra",
+      location: "Kudlu gate, Bangalore",
       rating: 5,
-      text: "Outstanding foundation waterproofing work on our office building. The team was knowledgeable and completed the project on time and within budget.",
-      service: "Foundation Waterproofing"
+      text: "If you're looking for a reliable waterproofing service, look no further. These experts not only solved my batbroom leaks but also left the place spotless. Their quality of work and professionalism are unmatched.",
+      service: "Bathroom Waterproofing"
     },
     {
-      name: "Jennifer Lee",
-      location: "Homeowner",
+      name: "Vijay s",
+      location: "Bommanahalli, Bangalore",
       rating: 5,
-      text: "Fast response to our roof leak emergency. They not only fixed the immediate problem but provided a comprehensive waterproofing solution.",
-      service: "Roof Waterproofing"
+      text: "Sohail recommended the process of waterproofing steps in detail. I have avoided mortar break and went ahead with fosroc waterproofing. This method is so neat and the best solution for terrace floor cracks.",
+      service: "Terrace Waterproofing"
     }
   ];
 
@@ -232,18 +232,18 @@ function App() {
                   Get Free Estimate
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </a>
-                <a href="tel:+1-555-AQUA-PRO" className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all flex items-center justify-center">
+                <a href="tel:+919166538689" className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition-all flex items-center justify-center">
                   <Phone className="mr-2 w-5 h-5" />
                   Emergency Service
                 </a>
               </div>
               <div className="grid grid-cols-3 gap-8 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-1">25+</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-1">12+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-teal-600 mb-1">5000+</div>
+                  <div className="text-3xl font-bold text-teal-600 mb-1">500+</div>
                   <div className="text-sm text-gray-600">Projects Completed</div>
                 </div>
                 <div>
@@ -316,7 +316,7 @@ function App() {
               Why Choose AquaProofing Co.?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              With over 25 years of experience, we're your trusted partner for all waterproofing needs.
+              With over 12 years of experience, we're your trusted partner for all waterproofing needs.
             </p>
           </div>
           
@@ -347,10 +347,6 @@ function App() {
               <div className="bg-white rounded-lg p-4 shadow-sm">
                 <div className="text-sm font-semibold text-gray-700">Fully Insured</div>
                 <div className="text-xs text-gray-500">Liability & Workers Comp</div>
-              </div>
-              <div className="bg-white rounded-lg p-4 shadow-sm">
-                <div className="text-sm font-semibold text-gray-700">EPA Certified</div>
-                <div className="text-xs text-gray-500">Environmental Safety</div>
               </div>
             </div>
           </div>
@@ -413,8 +409,8 @@ function App() {
                   <Phone className="w-6 h-6 text-blue-200 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-semibold">Phone</div>
-                    <a href="tel:+1-555-AQUA-PRO" className="text-blue-200 hover:text-white transition-colors">
-                      (555) AQUA-PRO
+                    <a href="tel:+919166538689" className="text-blue-200 hover:text-white transition-colors">
+                      (9136638689) AQUAPROOFING
                     </a>
                     <div className="text-sm text-blue-200 mt-1">24/7 Emergency Service Available</div>
                   </div>
@@ -424,8 +420,8 @@ function App() {
                   <Mail className="w-6 h-6 text-blue-200 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-semibold">Email</div>
-                    <a href="mailto:info@aquaproofingco.com" className="text-blue-200 hover:text-white transition-colors">
-                      info@aquaproofingco.com
+                    <a href="mailto:aquaproofing.co@gmail.com" className="text-blue-200 hover:text-white transition-colors">
+                      aquaproofing.co@gmail.com
                     </a>
                   </div>
                 </div>
@@ -435,8 +431,9 @@ function App() {
                   <div>
                     <div className="font-semibold">Service Area</div>
                     <div className="text-blue-200">
-                      123 Waterproof Lane<br />
-                      Your City, YS 12345<br />
+                      2, 14th MAIN, 13TH cross, KEB Rd,<br />
+                      Old Madiwala, 1st Stage, BTM Layout<br />
+                      Bengaluru, Karnataka 560068<br />
                       <span className="text-sm">Serving a 50-mile radius</span>
                     </div>
                   </div>
@@ -448,8 +445,8 @@ function App() {
                     <div className="font-semibold">Business Hours</div>
                     <div className="text-blue-200">
                       Monday - Friday: 8:00 AM - 6:00 PM<br />
-                      Saturday: 9:00 AM - 5:00 PM<br />
-                      Sunday: Emergency Service Only
+                      Saturday: 6:00 AM - 9:00 PM<br />
+                      Sunday: 6:00 AM - 9:00 PM
                     </div>
                   </div>
                 </div>
@@ -518,7 +515,7 @@ function App() {
                     name="phone"
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                    placeholder="(555) 123-4567"
+                    placeholder="(+91) 123-4567890"
                   />
                 </div>
                 
@@ -672,14 +669,14 @@ function App() {
               <div className="space-y-3 text-gray-400">
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-3 flex-shrink-0" />
-                  <a href="tel:+1-555-AQUA-PRO" className="hover:text-white transition-colors">
-                    (555) AQUA-PRO
+                  <a href="tel:+919166538689" className="hover:text-white transition-colors">
+                    (9136638689) AQUAPROOFING
                   </a>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-3 flex-shrink-0" />
-                  <a href="mailto:info@aquaproofingco.com" className="hover:text-white transition-colors">
-                    info@aquaproofingco.com
+                  <a href="mailto:aquaproofing.co@gmail.com" className="hover:text-white transition-colors">
+                    aquaproofing.co@gmail.com
                   </a>
                 </div>
                 <div className="flex items-start">
