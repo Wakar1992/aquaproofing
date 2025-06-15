@@ -593,7 +593,7 @@ function App() {
                     </label>
                   </div>*/}
 
-                  {/* Selected Files Display */}
+                  {/* Selected Files Display 
                   {selectedFiles.length > 0 && (
                     <div className="mt-4 space-y-2">
                       {selectedFiles.map((file, index) => (
@@ -618,7 +618,7 @@ function App() {
                       ))}
                     </div>
                   )}
-                </div>
+                </div>*/}
                 
                 <button
                   type="submit"
