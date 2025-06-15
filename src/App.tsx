@@ -38,16 +38,16 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const files = Array.from(event.target.files || []);
-    const validFiles = files.filter(file => {
-      const isValidType = file.type.startsWith('image/') || file.type === 'application/pdf';
-      const isValidSize = file.size <= 10 * 1024 * 1024; // 10MB limit
-      return isValidType && isValidSize;
-    });
+  // const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   const files = Array.from(event.target.files || []);
+  //   const validFiles = files.filter(file => {
+  //     const isValidType = file.type.startsWith('image/') || file.type === 'application/pdf';
+  //     const isValidSize = file.size <= 10 * 1024 * 1024; // 10MB limit
+  //     return isValidType && isValidSize;
+  //   });
     
-    setSelectedFiles(prev => [...prev, ...validFiles].slice(0, 5)); // Max 5 files
-  };
+  //   setSelectedFiles(prev => [...prev, ...validFiles].slice(0, 5)); // Max 5 files
+  // };
 
   const removeFile = (index: number) => {
     setSelectedFiles(prev => prev.filter((_, i) => i !== index));
