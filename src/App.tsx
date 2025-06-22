@@ -105,9 +105,9 @@ function App() {
     },
     {
       icon: <Umbrella className="w-12 h-12" />,
-      title: "Roof Waterproofing",
-      description: "Professional roof waterproofing and leak repair services to keep your property dry and protected from the elements.",
-      features: ["Roof Leak Repair", "Waterproof Membranes", "Gutter Systems", "Preventive Maintenance"]
+      title: "Terrace Waterproofing",
+      description: "Professional Terrace waterproofing and leak repair services to keep your property dry and protected from the elements.",
+      features: ["Terrace Leak Repair", "Waterproof Membranes", "Gutter Systems", "Preventive Maintenance"]
     }
   ];
 
@@ -545,7 +545,7 @@ function App() {
                     <option value="">Select a service</option>
                     <option value="basement">Basement Waterproofing</option>
                     <option value="foundation">Foundation Waterproofing</option>
-                    <option value="roof">Roof Waterproofing</option>
+                    <option value="roof">Terrace Waterproofing</option>
                     <option value="emergency">Emergency Service</option>
                     <option value="inspection">Property Inspection</option>
                   </select>
@@ -658,7 +658,7 @@ function App() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#services" className="hover:text-white transition-colors">Basement Waterproofing</a></li>
                 <li><a href="#services" className="hover:text-white transition-colors">Foundation Waterproofing</a></li>
-                <li><a href="#services" className="hover:text-white transition-colors">Roof Waterproofing</a></li>
+                <li><a href="#services" className="hover:text-white transition-colors">Terrace Waterproofing</a></li>
                 <li><a href="#services" className="hover:text-white transition-colors">Emergency Services</a></li>
                 <li><a href="#services" className="hover:text-white transition-colors">Water Damage Prevention</a></li>
               </ul>
