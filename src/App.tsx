@@ -136,7 +136,7 @@ function App() {
 
   const testimonials = [
     {
-      name: "Prad",
+      name: "Dhyan jha",
       location: "Vidayaranpura, Bangalore",
       rating: 5,
       text: "They have done the terrace waterproofing work and bathroom grouting work very good and neat. Now the leakage has stopped.good service. Reasonable price.Highly recommended.",
