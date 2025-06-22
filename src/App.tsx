@@ -181,7 +181,7 @@ function App() {
               <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
               <a href="#testimonials" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Reviews</a>
               <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Contact</a>
-              <a href="tel:+1-555-AQUA-PRO" className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-teal-700 transition-all transform hover:scale-105 font-semibold">
+              <a href="tel:+919166538689" className="bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-teal-700 transition-all transform hover:scale-105 font-semibold">
                 Call Now: (9166538689) AQUA-PRO
               </a>
             </nav>
@@ -204,7 +204,7 @@ function App() {
               <a href="#about" className="block text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
               <a href="#testimonials" className="block text-gray-700 hover:text-blue-600 transition-colors font-medium">Reviews</a>
               <a href="#contact" className="block text-gray-700 hover:text-blue-600 transition-colors font-medium">Contact</a>
-              <a href="tel:+1-555-AQUA-PRO" className="block w-full text-center bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-teal-700 transition-all font-semibold">
+              <a href="tel:+919166538689" className="block w-full text-center bg-gradient-to-r from-blue-600 to-teal-600 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-teal-700 transition-all font-semibold">
                 Call Now: (9166538689) AQUA-PRO
               </a>
             </div>
